@@ -15,6 +15,7 @@ const argv = require('yargs')
   .command('create','Creates a ToDo', commands)
   .command('list','List all ToDos')
   .command('update','Sets a ToDo with completed property', commands)
+  .command('delete', 'Deletes a ToDo', commands)
   .help()
   .argv;
 
